@@ -1,0 +1,20 @@
+
+@media(max-width:630px){
+ 
+    #header-container p{
+       font-size: 11px;
+    }
+    #header-container{
+       
+    }
+}
+@media (max-width:1050px) {
+    #popular-hotels{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:745px) {
+    #popular-hotels{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
